@@ -1,8 +1,10 @@
 Project Planning and Analysis Application
 
+<!-- Badges/Tags Section for GitHub -->
+
 This project is a standalone desktop application built with Java Swing for managing, analyzing, and visualizing project tasks, dependencies, and resource allocations. It provides a robust interface for loading data from text files, performing critical path and effort breakdown analysis, and generating a simple Gantt Chart visualization.
 
-✨ Features
+💡 Key Features
 
 File-Based Input: Easily load project data from structured Tasks.txt and Resources.txt files.
 
@@ -22,15 +24,13 @@ Visualization: Generates a basic Gantt Chart to visually represent the project t
 
 MVC Architecture: The codebase separates the data models (Task, Resource, Project) from the GUI (ProjectPlannerGUI) and file handling (FileUtility).
 
-🛠️ Prerequisites
+⚙️ Setup and Prerequisites
 
 To run this application, you need:
 
 Java Development Kit (JDK) 11 or higher
 
 A basic Java development environment (e.g., VS Code, IntelliJ IDEA, Eclipse)
-
-🚀 Getting Started
 
 1. Repository Setup
 
@@ -53,8 +53,9 @@ Ensure your project structure and data files match the expected format:
 │   │   ├── Task.java             # Task Entity
 │   │   ├── Resource.java         # Resource Entity
 │   │   ├── FileUtility.java      # File Parsing Logic
-│   │   ├── Tasks.txt             # Example Task Data (Input)
-│   │   └── Resources.txt         # Example Resource Data (Input)
+│   │   └── ... (Other classes)
+├── Tasks.txt                     # Example Task Data (Input)
+└── Resources.txt                 # Example Resource Data (Input)
 
 
 3. Running the Application
@@ -66,9 +67,9 @@ javac -d bin src/projectplanner/*.java
 java -cp bin projectplanner.Main
 
 
-⚙️ Data File Format
+📁 Data File Formats
 
-The application relies on two plain text files for input. The files must be located in the same directory (or the project root, depending on your running environment).
+The application relies on two plain text files for input.
 
 1. Tasks.txt Format
 
@@ -132,7 +133,7 @@ A list of task allocations.
 
 1:50, 3:100 (Task 1: 50%, Task 3: 100%)
 
-🖼️ User Interface & Workflow
+🖥️ User Workflow
 
 Launch: Run the Main.java file to open the Project Planning Application window.
 
@@ -144,7 +145,9 @@ Analyze: Click the Analyze button to open the analysis dialog. Select a radio bu
 
 Visualize: Click the Visualize button to view the simple Gantt Chart representation of the project timeline.
 
-👨‍💻 Core Classes and Responsibilities
+🧱 Core Application Structure
+
+This table highlights the responsibility of each main Java class:
 
 Class
 
@@ -152,20 +155,20 @@ Responsibility
 
 ProjectPlannerGUI.java
 
-Main application window, handles all user interaction, table display, and launches sub-dialogs/frames.
+Main application window, handles all user interaction, table display, and launches sub-dialogs/frames (View/Controller).
 
 Project.java
 
-Central data model. Manages collections of Tasks and Resources and contains all analytical methods (projectDuration(), findOverlappingDependencyPairs(), totalEffortHoursPerResource()).
+Central data model. Manages collections of Tasks and Resources and contains all analytical methods (Model).
 
 Task.java
 
-Defines a single project task, including ID, timeline, and dependency links. Calculates its own duration.
+Defines a single project task, including ID, timeline, and dependency links (Model).
 
 Resource.java
 
-Defines a project resource and tracks its percentage allocation across various tasks.
+Defines a project resource and tracks its percentage allocation across various tasks (Model).
 
 FileUtility.java
 
-Provides static methods to safely read and parse data from Tasks.txt and Resources.txt into the Model objects.
+Provides static methods to safely read and parse data from text files into the Model objects (Utility).
