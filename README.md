@@ -45,6 +45,36 @@ cd ProjectPlanner <br>
 ├── Tasks.txt                     # Example Task Data (Input)<br>
 └── Resources.txt                 # Example Resource Data (Input)<br>
 
+### 3. Running the Application
+
+Compile and run the Main.java class: <br>
+
+javac -d bin src/projectplanner/*.java <br>
+java -cp bin projectplanner.Mai <br>
+
+
+### 📁 Data File Formats
+
+
+# 1. Tasks.txt Format
+
+Each line represents a task: <br>
+TaskID, Title, StartDateTime, EndDateTime, DependencyIDs<br>
+
+
+# 2. Resources.txt Format
+
+Each line represents a resource (person): <br>
+ResourceName, TaskID:Allocation%, TaskID:Allocation%, ... <br>
+
+
+### 🖥️ User Workflow
+
+- Launch: Run Main.java to open the application.
+- Load Data: Click Upload Tasks or Upload Resources and select the input files.
+- Review: Tasks and resources populate in the central table.
+- Analyze: Click Analyze, choose a report (e.g., Effort Breakdown), and view results.
+- Visualize: Click Visualize to see the Gantt Chart representation.
 
 
 
