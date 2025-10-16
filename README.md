@@ -35,15 +35,15 @@ cd ProjectPlanner <br>
 .<br>
 ├── src/ <br>
 │   ├── projectplanner/<br>
-│   │   ├── Main.java             # Application entry point<br>
-│   │   ├── ProjectPlannerGUI.java # Main GUI (View/Controller)<br>
-│   │   ├── Project.java          # Project Model (Business Logic)<br>
-│   │   ├── Task.java             # Task Entity<br>
-│   │   ├── Resource.java         # Resource Entity<br>
-│   │   ├── FileUtility.java      # File Parsing Logic<br>
+│   │   ├── Main.java             ## Application entry point<br>
+│   │   ├── ProjectPlannerGUI.java ## Main GUI (View/Controller)<br>
+│   │   ├── Project.java          ## Project Model (Business Logic)<br>
+│   │   ├── Task.java             ## Task Entity<br>
+│   │   ├── Resource.java         ## Resource Entity<br>
+│   │   ├── FileUtility.java      ## File Parsing Logic<br>
 │   │   └── ... (Other classes)<br>
-├── Tasks.txt                     # Example Task Data (Input)<br>
-└── Resources.txt                 # Example Resource Data (Input)<br>
+├── Tasks.txt                     ## Example Task Data (Input)<br>
+└── Resources.txt                 ## Example Resource Data (Input)<br>
 
 ### 3. Running the Application
 
