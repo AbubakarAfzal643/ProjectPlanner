@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.projectplanner.ProjectTest" time="0.131" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Abubakar\OneDrive\Desktop\5th SEM Assignments\SCD\23L-3062-A3\ProjectPlanner\target\test-classes;C:\Users\Abubakar\OneDrive\Desktop\5th SEM Assignments\SCD\23L-3062-A3\ProjectPlanner\target\classes;C:\Users\Abubakar\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.4.2.jre11\mssql-jdbc-12.4.2.jre11.jar;C:\Users\Abubakar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\Abubakar\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Abubakar\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\Abubakar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Abubakar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\Abubakar\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\Abubakar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\Abubakar\.m2\repository\org\mockito\mockito-core\5.8.0\mockito-core-5.8.0.jar;C:\Users\Abubakar\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\Abubakar\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\Abubakar\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Abubakar\.m2\repository\org\mockito\mockito-junit-jupiter\5.8.0\mockito-junit-jupiter-5.8.0.jar;C:\Users\Abubakar\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Abubakar\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\Abubakar\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\Abubakar\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Abubakar\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="user.country.format" value="PK"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin"/>
+    <property name="sun.java.command" value="C:\Users\Abubakar\AppData\Local\Temp\surefire194224803080489210\surefirebooter-20251106214713068_3.jar C:\Users\Abubakar\AppData\Local\Temp\surefire194224803080489210 2025-11-06T21-47-12_873-jvmRun1 surefire-20251106214713068_1tmp surefire_0-20251106214713068_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Abubakar\OneDrive\Desktop\5th SEM Assignments\SCD\23L-3062-A3\ProjectPlanner\target\test-classes;C:\Users\Abubakar\OneDrive\Desktop\5th SEM Assignments\SCD\23L-3062-A3\ProjectPlanner\target\classes;C:\Users\Abubakar\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\12.4.2.jre11\mssql-jdbc-12.4.2.jre11.jar;C:\Users\Abubakar\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\Abubakar\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Abubakar\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\Abubakar\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Abubakar\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\Abubakar\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\Abubakar\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\Abubakar\.m2\repository\org\mockito\mockito-core\5.8.0\mockito-core-5.8.0.jar;C:\Users\Abubakar\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\Abubakar\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\Abubakar\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Abubakar\.m2\repository\org\mockito\mockito-junit-jupiter\5.8.0\mockito-junit-jupiter-5.8.0.jar;C:\Users\Abubakar\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Abubakar\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\Abubakar\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\Abubakar\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Abubakar\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Abubakar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Apache NetBeans\jdk"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Abubakar\OneDrive\Desktop\5th SEM Assignments\SCD\23L-3062-A3\ProjectPlanner"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Abubakar\AppData\Local\Temp\surefire194224803080489210\surefirebooter-20251106214713068_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.2+12"/>
+    <property name="user.name" value="Abubakar"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu24.32+13-CA"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\Apache NetBeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Abubakar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Abubakar\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="C:\Users\Abubakar\OneDrive\Desktop\5th SEM Assignments\SCD\23L-3062-A3\ProjectPlanner"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\HP\OMEN-Broadcast\Common;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\mingw64\mingw64\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Abubakar\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\npm;C:\Users\Abubakar\AppData\Roaming\npm;C:\Users\Abubakar\.dotnet\tools;C:\Users\Abubakar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.2.1\bin;C:\Users\Abubakar\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="24.0.2+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testNoOverlap_AdjacentBoundary" classname="com.mycompany.projectplanner.ProjectTest" time="0.056"/>
+  <testcase name="testOverlap_PartialOverlap_End" classname="com.mycompany.projectplanner.ProjectTest" time="0.002"/>
+  <testcase name="testOverlap_SameStartEnd" classname="com.mycompany.projectplanner.ProjectTest" time="0.002"/>
+  <testcase name="testProjectStartAndEnd_AcrossDays" classname="com.mycompany.projectplanner.ProjectTest" time="0.004"/>
+  <testcase name="testProjectStartAndEnd_EmptyProject" classname="com.mycompany.projectplanner.ProjectTest" time="0.002"/>
+  <testcase name="testOverlap_PartialOverlap_Start" classname="com.mycompany.projectplanner.ProjectTest" time="0.001"/>
+  <testcase name="testNoOverlap_Sequential" classname="com.mycompany.projectplanner.ProjectTest" time="0.001"/>
+  <testcase name="testProjectStartAndEnd_SingleTask" classname="com.mycompany.projectplanner.ProjectTest" time="0.001"/>
+  <testcase name="testProjectStartAndEnd_MultipleTasks_DifferentTimes" classname="com.mycompany.projectplanner.ProjectTest" time="0.001"/>
+  <testcase name="testOverlap_FullOverlap" classname="com.mycompany.projectplanner.ProjectTest" time="0.001"/>
+</testsuite>
